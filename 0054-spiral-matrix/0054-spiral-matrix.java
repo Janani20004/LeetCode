@@ -18,8 +18,9 @@ class Solution {
             for(int i=colend-1;i>=colstart;i--){
                 ans.add(matrix[rowend-1][i]);
             }
-            rowend-=1;
+            
         }
+        rowend-=1;
         if(colstart<colend){
             for(int i =rowend-1;i>=rowstart;i--){
                 ans.add(matrix[i][colstart]);
